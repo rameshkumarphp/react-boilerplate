@@ -1,0 +1,43 @@
+{
+  "name": "react-boilerplate",
+  "version": "1.0.0",
+  "description": "Simple Boilerplate code to start with React development",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --config webpack.config.js --open --hot",
+    "build": "webpack --config webpack.config.js",
+    "test": "jest --config ./jest.config.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rameshkumarphp/react-boilerplate.git"
+  },
+  "author": "Ramesh kumar M",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rameshkumarphp/react-boilerplate/issues"
+  },
+  "homepage": "https://github.com/rameshkumarphp/react-boilerplate#readme",
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-router-dom": "^5.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.6",
+    "@babel/preset-env": "^7.11.5",
+    "@babel/preset-react": "^7.10.4",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^4.3.0",
+    "eslint": "^7.10.0",
+    "html-loader": "^1.3.1",
+    "html-webpack-plugin": "^4.5.0",
+    "jest": "^26.5.2",
+    "json-loader": "^0.5.7",
+    "style-loader": "^2.0.0",
+    "url-loader": "^4.1.0",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
